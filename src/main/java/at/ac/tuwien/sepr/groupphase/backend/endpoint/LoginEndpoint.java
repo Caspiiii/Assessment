@@ -42,7 +42,7 @@ public class LoginEndpoint {
     }
 
     @PermitAll
-    @CrossOrigin(origins = "http://3.122.112.34")
+    //@CrossOrigin(origins = "http://3.122.112.34")
     @PostMapping
     public String login(@RequestBody UserLoginDto userLoginDto) {
         try {

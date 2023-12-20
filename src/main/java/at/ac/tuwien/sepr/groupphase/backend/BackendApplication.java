@@ -13,7 +13,7 @@ public class BackendApplication {
         SpringApplication.run(BackendApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
             @Override
@@ -21,6 +21,6 @@ public class BackendApplication {
                 registry.addMapping("/greeting-javaconfig").allowedOrigins("http://3.122.112.34");
             }
         };
-    }
+    }*/
 
 }
